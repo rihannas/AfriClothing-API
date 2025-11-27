@@ -1,11 +1,12 @@
-asgiref==3.7.2
-defusedxml==0.7.1
 Django==4.2.5
-django-filter==25.1
 djangorestframework==3.14.0
 djangorestframework-xml==2.0.0
+djangorestframework-simplejwt==6.3.1
+gunicorn==21.2.0
+whitenoise==6.5.0
 pytz==2023.3.post1
 sqlparse==0.4.4
+asgiref==3.7.2
+defusedxml==0.7.1
 typing_extensions==4.8.0
-gunicorn
-whitenoise
+Pillow==10.0.0
