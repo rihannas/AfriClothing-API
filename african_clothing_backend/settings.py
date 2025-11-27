@@ -67,6 +67,7 @@ MEDIA_ROOT = BASE_DIR / 'media'
 ALLOWED_HOSTS = ['*']
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware', 
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
