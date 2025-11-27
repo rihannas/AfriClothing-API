@@ -1,6 +1,7 @@
 asgiref==3.7.2
 defusedxml==0.7.1
 Django==4.2.5
+django-filter==25.1
 djangorestframework==3.14.0
 djangorestframework-xml==2.0.0
 pytz==2023.3.post1
